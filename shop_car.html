@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <script src="js/common/jquery.min.js"></script>
+    <script src="js/common/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/docFoot.css">
+    <link rel="stylesheet" href="css/shop_car.css">
+
+</head>
+
+<body>
+    <!-- 公共头部 -->
+    <div class="header"></div>
+    <!-- 搜索区域 -->
+    <header id="docHead">
+        <div id="docHeadWrap">
+            <a class="logokaola" data-param="zn=top" title="网易考拉" href="index.html"></a>
+        </div>
+    </header>
+
+    <!-- 购物车列表 -->
+    <article class="mainWrap">
+        <div id="cartbox">
+            <h3 class="m-mycart">
+                <span class="tt">我的购物车</span>
+                <span class="tip">
+                    <img class="alert" src="//haitao.nos.netease.com/45441f34-6f10-45ee-8f33-11d9bc5dc4b8_16_16.png">
+                    <span class="msg">考拉自营商品已免运费</span>
+                    <i class="u-icnft j-postagefree icon-ask-hollow"></i>
+                    <!--Regular if17-->
+                    <!--Regular if18--><a href="product_list.html">再逛逛 &gt;</a>
+
+                </span>
+            </h3>
+            <!-- 列表区 -->
+            <div class="m-cartbox">
+                <div class="head f-cb">
+                    <div class="col col1"><input type="checkbox" class="u-chk" name="selectAll" id="selectAll" checked="false">
+                        <label for="selectAll" class="lab">全选</label>
+                    </div>
+                    <div class="col col2">商品信息</div>
+                    <div class="col col3">单价(元)</div>
+                    <div class="col col4">数量</div>
+                    <div class="col col5">金额(元)</div>
+                    <div class="col col6">操作</div>
+                </div>
+            </div>
+
+            <!-- 添加进来的商品 -->
+            <div class="m-cart  ">
+                <ul class="m-goods">
+                   
+                </ul>
+            </div>
+
+            <!-- 结算按钮 -->
+            <div class="totalbox">
+                <div id="point"></div>
+                <div class="m-total f-cb" id="totalbar" style="position: relative;">
+                    <!--Regular if63-->
+                    <!--Regular if64-->
+                    <div class="ttbar">
+                        <div class="lt">
+                            <input type="checkbox" name="selectAll" id="selectAll" class="u-chk" checked="checked">
+                            <b class="opt">删除选中商品</b>
+                            <!--Regular if65-->
+                        </div>
+                        <div class="rt">
+                            <p class="allgoods">已选商品 <em id="totalCount" class="num">1</em> 件 <span class="itm">总价(不含运费)：￥<em class="num" id="totalPrice">0.00</em></span></p>
+                            <p class="allmoney">活动优惠：-￥0.00<span class="itm">商品应付总计：￥359.00</span><span class="itm">商品税费（不含运费税）：￥0.00</span></p>
+                            <a class="gobuy ">去结算</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- 购物车空状态 -->
+    <div class="m_nocart">
+        <div class="wrap">
+            <!--Regular if198-->
+            <p>购物车里空空如也，赶紧去&nbsp;<a href="product_list.html">逛逛吧&gt;</a></p>
+            <p>或者您可以先进行&nbsp;<a href="login.html">登录&gt;</a></p>
+
+        </div>
+    </div>
+
+    <!-- 公共尾部 -->
+    <div class="footer"></div>
+        <script src="js/shop_car.js"></script>
+</body>
+
+</html>

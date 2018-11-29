@@ -1,0 +1,72 @@
+.qf-banner {
+    width: 100%;
+    height: 506px;
+
+}
+
+.qf-banner .swiper-pagination-bullet {
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+}
+
+.qf-banner .swiper-pagination-bullet-active {
+    background-color: #fff;
+    opacity: 1;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.6);
+}
+
+.qf-banner .swiper-pagination-bullet-active:focus {
+    outline: none; 
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.zb {
+    left: 260px;
+}
+
+.yb {
+    right: 15%;
+}
+
+.qf-banner .xyd {
+    bottom: 50px;
+}
+.qf-banner .xyd li{
+    width: 10px;
+    height: 10px;
+    color: rgba(255, 255, 255, 0)
+}
+
+/* 图 */
+.Gintama {
+    background-image: url(../img/banner1.jpg);
+}
+
+.SteinsGate {
+    background-image: url(../img/banner2.jpg);
+}
+
+.Unicorn {
+    background-image: url(../img/banner3.jpg);
+}
+
+.Berserk {
+    background-image: url(../img/banner4.jpg);
+}
+
+.SummerWars {
+    background-image: url(../img/banner5.jpg);
+}
+
+.Akito {
+    background-image: url(../img/banner6.jpg);
+}
+
+.Eva {
+    background-image: url(../img/banner1.jpg);
+}

@@ -1,0 +1,86 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", \5FAE\8F6F\96C5\9ED1, tahoma, simsun, \5b8b\4f53;
+    list-style: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+html,
+body {
+    min-width: 1090px;
+    height: 100%;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+
+}
+img,
+input,
+select {
+    vertical-align: middle;
+    display: inline-block;
+}
+/* 万能清朝浮动/统一类名 */
+.f-cb::after,
+.clearfix::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0px;
+    content: "\20";
+    clear: both;
+    height: 0px;
+}

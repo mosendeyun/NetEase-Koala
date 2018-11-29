@@ -1,0 +1,226 @@
+.mainWrap {
+  width: 1090px;
+  padding: 0;
+  margin: auto;
+  position: relative;
+}
+.mainWrap .m-mycart {
+  font-size: 14px;
+  color: #333;
+  line-height: 32px;
+  margin-top: 15px;
+}
+.mainWrap .m-mycart .tt {
+  position: relative;
+  top: -1px;
+  font-weight: bold;
+}
+.mainWrap .m-mycart .tip {
+  position: relative;
+  float: right;
+  top: -4px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  font-weight: normal;
+}
+.mainWrap .m-cartbox .head {
+  color: #999;
+  border: 1px solid #eaeaea;
+  height: 34px;
+}
+.mainWrap .m-cartbox .head .col {
+  line-height: 34px;
+  float: left;
+  padding: 0 10px;
+}
+.mainWrap .m-cartbox .head .col1 {
+  width: 114px;
+}
+.mainWrap .m-cartbox .head .col2 {
+  width: 402px;
+}
+.mainWrap .m-cartbox .head .col3 {
+  width: 130px;
+}
+.mainWrap .m-cartbox .head .col4 {
+  width: 127px;
+}
+.mainWrap .m-cartbox .head .col5 {
+  width: 108px;
+}
+.mainWrap .m-cartbox .head .col6 {
+  width: 93px;
+  padding: 0 7px;
+  text-align: left;
+}
+.mainWrap .m-cart .z-selected {
+  background-color: #fffbf0;
+}
+.mainWrap .m-cart .gooditm {
+  border-bottom: 1px solid #eaeaea;
+  padding: 20px 0;
+  min-height: 80px;
+  text-align: center;
+}
+.mainWrap .m-cart .gooditm .u-chk {
+  margin: -6px 10px 0 12px;
+}
+.mainWrap .m-cart .gooditm .col0 {
+  float: left;
+  padding-right: 0;
+  width: 37px;
+  height: 80px;
+  position: relative;
+  z-index: 100;
+  *margin-top: 50px;
+}
+.mainWrap .m-cart .gooditm .col0 .u-chk {
+  line-height: 80px;
+  vertical-align: middle;
+  margin-right: 0;
+  position: relative;
+  z-index: 102;
+}
+.mainWrap .m-cart .gooditm .col1 {
+  float: left;
+  padding: 0 0px 0 0;
+  *margin-top: 20px;
+}
+.mainWrap .m-cart .gooditm .col1 .imgwrap {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+.mainWrap .m-cart .gooditm .col2 {
+  float: left;
+  width: 420px;
+}
+.mainWrap .m-cart .gooditm .col2 .name {
+  margin-left: 15px;
+  width: 220px;
+  padding-right: 30px;
+  float: left;
+  *display: inline;
+}
+.mainWrap .m-cart .gooditm .col3 {
+  float: left;
+  width: 88px;
+  text-align: center;
+  margin-right: 50px;
+}
+.mainWrap .m-cart .gooditm .col4 {
+  float: left;
+  width: 103px;
+  margin-right: 60px;
+}
+.mainWrap .m-cart .gooditm .col4 input {
+  margin: 0 30px;
+  width: 43px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border: #bcbcbc 1px solid;
+  border-width: 1px 0;
+}
+.mainWrap .m-cart .gooditm .col5 {
+  float: left;
+  width: 98px;
+  text-align: center;
+  margin-right: 50px;
+}
+.mainWrap .m-cart .gooditm .col6 {
+  float: left;
+}
+.mainWrap .m-cart .gooditm .col6 bottom {
+  outline: none;
+  border: 0;
+  background: none;
+}
+.mainWrap .totalbox {
+  min-height: 62px;
+  *height: 62px;
+  position: relative;
+  margin-top: 35px;
+}
+.mainWrap .totalbox .m-total {
+  position: fixed;
+  bottom: 0;
+  width: 1088px;
+  min-width: 820px;
+  z-index: 101;
+  border: 1px solid #eaeaea;
+}
+.mainWrap .totalbox .m-total .ttbar {
+  height: 40px;
+  line-height: 40px;
+  padding: 10px;
+  position: relative;
+  background-color: #f8f8f8;
+}
+.mainWrap .totalbox .m-total .ttbar .lt {
+  width: 187px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+}
+.mainWrap .totalbox .m-total .ttbar .lt .u-chk {
+  width: 17px;
+  height: 18px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  -webkit-appearance: none;
+}
+.mainWrap .totalbox .m-total .ttbar .lt .opt {
+  cursor: pointer;
+  margin-left: 20px;
+}
+.mainWrap .totalbox .m-total .ttbar .rt {
+  float: right;
+  padding-right: 140px;
+  line-height: 20px;
+  text-align: right;
+}
+.mainWrap .totalbox .m-total .ttbar .rt .allmoney {
+  color: #999;
+}
+.mainWrap .totalbox .m-total .ttbar .rt .num {
+  color: #e31436;
+  font-weight: bold;
+  font-size: 18px;
+}
+.mainWrap .totalbox .m-total .ttbar .rt .itm {
+  margin-left: 20px;
+}
+.mainWrap .totalbox .m-total .ttbar .rt .gobuy {
+  position: absolute;
+  display: block;
+  right: -1px;
+  top: -1px;
+  bottom: 0;
+  width: 120px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #e31436;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.m_nocart {
+  position: relative;
+  font-size: 16px;
+  height: 218px;
+  background: #f1f1f1;
+  display: none;
+}
+.m_nocart .wrap {
+  position: absolute;
+  left: 396px;
+  top: 90px;
+}
+.m_nocart .wrap a {
+  color: #d12147;
+  text-decoration: none;
+}

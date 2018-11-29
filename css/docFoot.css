@@ -1,0 +1,151 @@
+.footBgWrap {
+  background: #fff;
+  border-top: 1px solid #eaeaea;
+}
+.footBgWrap .box {
+  width: 1100px;
+  margin: 0 auto;
+  background-color: transparent;
+  text-align: left;
+  font-size: inherit;
+  color: inherit;
+  cursor: default;
+  display: block;
+}
+.footBgWrap .box #btmlist {
+  padding: 49px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+.footBgWrap .box #btmlist li {
+  float: left;
+  width: 233px;
+  margin-left: 42px;
+}
+.footBgWrap .box #btmlist li .btmIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid #d6d6d6;
+  text-align: center;
+  line-height: 44px;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  float: left;
+  margin-right: 12px;
+}
+.footBgWrap .box #btmlist li .tit {
+  display: block;
+  line-height: 22px;
+}
+.footBgWrap .box #btmlist li .desc {
+  font-size: 14px;
+  display: block;
+  line-height: 22px;
+}
+#guideList {
+  padding: 45px 0 90px;
+}
+#guideList li {
+  float: left;
+  width: 110px;
+  padding: 0 0 0 21px;
+  height: 128px;
+}
+#guideList li dt {
+  margin: -4px 0 10px;
+}
+#guideList li dt em {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+#guideList li dd {
+  line-height: 29px;
+}
+#guideList li .focuson {
+  height: 32px;
+}
+#guideList li .focuson .itm {
+  position: relative;
+  margin-left: 10px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+#guideList li .focuson .itm .follow-us-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+#guideList li .focuson .itm .weibo-icon {
+  background-image: url(https://haitao.nos.netease.com/a4b6e70e-be73-43e0-93de-7f9d5a2ee5ce.png?imageView&thumbnail=32x0&quality=85&v=1);
+  background-image: -webkit-image-set(url(https://haitao.nos.netease.com/a4b6e70e-be73-43e0-93de-7f9d5a2ee5ce.png?imageView&thumbnail=32x0&quality=85&v=1) 1x, url(https://haitao.nos.netease.com/a4b6e70e-be73-43e0-93de-7f9d5a2ee5ce.png) 2x);
+}
+#guideList li .focuson .itm .weixin-icon {
+  background-image: url(https://haitao.nos.netease.com/5c73c116-766b-4c2a-aad6-5f417b6d6725.png?imageView&thumbnail=32x0&quality=85&v=1);
+  background-image: -webkit-image-set(url(https://haitao.nos.netease.com/5c73c116-766b-4c2a-aad6-5f417b6d6725.png?imageView&thumbnail=32x0&quality=85&v=1) 1x, url(https://haitao.nos.netease.com/5c73c116-766b-4c2a-aad6-5f417b6d6725.png) 2x);
+}
+#guideList li .focuson .itm .yixin-icon {
+  background-image: url(https://haitao.nos.netease.com/bc47f148-5e45-4e4f-83ac-265ddc1e85b3.png?imageView&thumbnail=32x0&quality=85&v=1);
+  background-image: -webkit-image-set(url(https://haitao.nos.netease.com/bc47f148-5e45-4e4f-83ac-265ddc1e85b3.png?imageView&thumbnail=32x0&quality=85&v=1) 1x, url(https://haitao.nos.netease.com/bc47f148-5e45-4e4f-83ac-265ddc1e85b3.png) 2x);
+}
+#guideList li .focuson .m-notice {
+  position: absolute;
+  left: -44px;
+  top: 42px;
+  display: none;
+  z-index: 10;
+  background: #fff;
+}
+#guideList .first {
+  width: 218px;
+  padding-right: 40px;
+  padding-left: 0;
+}
+#guideList .first .logokaola {
+  display: block;
+  width: 220px;
+  height: 43px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  outline: none;
+  cursor: pointer;
+  z-index: 9;
+  background: #333;
+  background: url(http://haitao.nos.netease.com/d31a8833-2f5d-4a88-a396-a3b88979d251.png?imageView&thumbnail=220x0&quality=85&v=1) no-repeat;
+  background-image: -webkit-image-set(url(http://haitao.nos.netease.com/d31a8833-2f5d-4a88-a396-a3b88979d251.png?imageView&thumbnail=220x0&quality=85&v=1) 1x, url(//haitao.nos.netease.com/d31a8833-2f5d-4a88-a396-a3b88979d251.png?imageView&thumbnail=440x0&quality=85&v=1) 2x);
+}
+#guideList .item {
+  width: 108px;
+  padding: 0;
+  text-align: center;
+  float: left;
+  margin-left: 10px;
+}
+#aboutNEST {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  line-height: 26px;
+  background: #333;
+}
+#aboutNEST .f-tac img {
+  height: 30px;
+  margin: 5px 15px 0 0;
+}
+#aboutNEST a {
+  text-decoration: none;
+  color: #c2c2c2;
+  padding: 0 10px;
+  font-size: 14px;
+}
+#aboutNEST .m-license {
+  margin: 0 10px;
+}
+#aboutNEST .m-license2 {
+  margin: 0 5px;
+}

@@ -44,29 +44,32 @@
 
 /* 图 */
 .Gintama {
-    background-image: url(../img/banner1.jpg);
+    background-image: url(../../img/banner1.jpg);
 }
 
 .SteinsGate {
-    background-image: url(../img/banner2.jpg);
+    background-image: url(../../img/banner2.jpg);
 }
 
 .Unicorn {
-    background-image: url(../img/banner3.jpg);
+    background-image: url(../../img/banner3.jpg);
 }
 
 .Berserk {
-    background-image: url(../img/banner4.jpg);
+    background-image: url(../../img/banner4.jpg);
 }
 
 .SummerWars {
-    background-image: url(../img/banner5.jpg);
+    background-image: url(../../img/banner5.jpg);
 }
 
 .Akito {
-    background-image: url(../img/banner6.jpg);
+    background-image: url(../../img/banner6.jpg);
 }
 
 .Eva {
-    background-image: url(../img/banner1.jpg);
+    background-image: url(../../img/banner7.jpg);
+}
+.eate {
+    background-image: url(../../img/banner8.jpg);
 }

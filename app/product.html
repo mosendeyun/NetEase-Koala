@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>产品详情页面</title>
-    <link rel="stylesheet" href="css/contentArea.css">
-   <script src="js/common/jquery.min.js"></script> 
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/docFoot.css">
-    <link rel="stylesheet" href="css/iconfont.css">
-    <link rel="stylesheet" href="css/product_content.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- <link rel="stylesheet" href="static/css/contentArea.css"> -->
+    <link rel="stylesheet" href="static/css/common.css">
+    <link rel="stylesheet" href="static/css/header.css">
+    <link rel="stylesheet" href="static/css/docFoot.css">
+    <link rel="stylesheet" href="static/css/iconfont.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.0/css/swiper.min.css">
+    <link rel="stylesheet" href="static/css/product_content.css">
+    <script src="static/js/common/jquery.js"></script>
 </head>
 
 <body>
@@ -241,15 +240,13 @@
 
     <!-- 公共尾部 -->
     <div class="footer"></div>
-    <script>
-         $('.header').load('common.html .top');
-        $('.footer').load('common.html #docFoot');
-    </script>
-    <script src="js/move0.0.1.js"></script>
-    <script src="js/glass.js"></script>
+    
+    <!-- <script src="static/js/move0.0.1.js"></script> -->
     <script>      
-        enlarge.init(4)
-    </script>
+     $('.header').load('common.html .top');
+     $('.footer').load('common.html #docFoot');   
+     </script>
+     <script src="static/js/glass.js"></script>
 
 </body>
 
